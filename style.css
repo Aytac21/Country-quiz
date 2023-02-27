@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background: pink;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#game {
+  width: 700px;
+  background-color: #fff;
+  height: 500px;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+#hearts img {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+}
+
+#flag_area {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+#flag_area img {
+  width: 200px;
+}
+
+#options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+#options li {
+  width: 250px;
+  background-color: bisque;
+  height: 50px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+#options li:hover {
+  background-color: darkorchid;
+}
+
+h1 {
+  color: black;
+  font-size: 40px;
+  text-align: center;
+  margin: 20px 0;
+}
